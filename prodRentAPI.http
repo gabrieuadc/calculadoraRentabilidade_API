@@ -1,0 +1,6 @@
+@prodRentAPI_HostAddress = http://localhost:5008
+
+GET {{prodRentAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
