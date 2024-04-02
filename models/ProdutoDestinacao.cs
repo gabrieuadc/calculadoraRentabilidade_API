@@ -20,19 +20,19 @@ namespace prodrentapi.Models{
         public int DestinacaoID{get;set;}
 
         [BsonElement("AliquotaDebitoPIS")]
-        public int AliquotaDebitoPIS{get;set;}
+        public float AliquotaDebitoPIS{get;set;}
 
         [BsonElement("AliquotaDebitoCOFINS")]
-        public int AliquotaDebitoCOFINS{get;set;}
+        public float AliquotaDebitoCOFINS{get;set;}
 
         [BsonElement("AliquotaDebitoIPI")]
-        public int AliquotaDebitoIPI{get;set;}
+        public float AliquotaDebitoIPI{get;set;}
 
         [BsonElement("AliquotaDebitoICMS")]
-        public int AliquotaDebitoICMS{get;set;}
+        public float AliquotaDebitoICMS{get;set;}
 
         [BsonElement("AliquotaDebitoOutros")]
-        public int AliquotaDebitoOutros{get;set;}
+        public float AliquotaDebitoOutros{get;set;}
 
     }
 

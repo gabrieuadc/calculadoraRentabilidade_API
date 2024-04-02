@@ -1,6 +1,9 @@
 using prodrentapi.Models;
 using prodrentapi.services;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -31,8 +34,26 @@ builder.Services.AddSingleton<UsuarioService>();
 builder.Services.AddSingleton<OrigemService>();
 builder.Services.AddSingleton<DestinacaoService>();
 
-builder.Services.AddAuthentication("BasicAuthentication")
-.AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
+// builder.Services.AddAuthentication("BasicAuthentication")
+// .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
+
+builder.Services.AddAuthentication( x=> 
+{
+    x.DefaultAuthenticateScheme= JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme= JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+    {
+        options.RequireHttpsMetadata = false;
+        options.SaveToken= true;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("lFqtMwdMXz0Q0qlwXhUPtFhf+B11ahhfhxLi5PBsbRo=")),
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+        };
+        });
 
 
 

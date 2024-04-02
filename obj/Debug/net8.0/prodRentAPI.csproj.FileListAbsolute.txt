@@ -130,3 +130,12 @@ C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\z
 C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gabri\Videos\tcc\prodrentAPI\prodRentAPI\prodRentAPI\obj\Debug\net8.0\prodRentAPI.sourcelink.json

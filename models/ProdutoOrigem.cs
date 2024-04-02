@@ -22,19 +22,19 @@ namespace prodrentapi.Models{
         public int OrigemID{get;set;}
 
         [BsonElement("AliquotaCreditoPIS")]
-        public int AliquotaCreditoPIS{get;set;}
+        public float AliquotaCreditoPIS{get;set;}
 
         [BsonElement("AliquotaCreditoCOFINS")]
-        public int AliquotaCreditoCOFINS{get;set;}
+        public float AliquotaCreditoCOFINS{get;set;}
 
         [BsonElement("AliquotaCreditoIPI")]
-        public int AliquotaCreditoIPI{get;set;}
+        public float AliquotaCreditoIPI{get;set;}
 
         [BsonElement("AliquotaCreditoICMS")]
-        public int AliquotaCreditoICMS{get;set;}
+        public float AliquotaCreditoICMS{get;set;}
 
         [BsonElement("AliquotaCreditoOutros")]
-        public int AliquotaCreditoOutros{get;set;}
+        public float AliquotaCreditoOutros{get;set;}
 
     }
 

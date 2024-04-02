@@ -6,7 +6,7 @@
 # dotenv files
 .env
 
-appsettings.json
+
 
 # User-specific files
 *.rsuser
@@ -14,6 +14,9 @@ appsettings.json
 *.user
 *.userosscache
 *.sln.docstates
+appsettings.json
+bin/
+
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

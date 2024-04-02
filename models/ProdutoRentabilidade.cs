@@ -24,10 +24,10 @@ namespace prodrentapi.Models{
         public int DestinacaoId{get;set;}
 
         [BsonElement("ValorCusto")]
-        public int ValorCusto{get;set;}
+        public float ValorCusto{get;set;}
         
         [BsonElement("ValorVenda")]
-        public int ValorVenda{get;set;}
+        public float ValorVenda{get;set;}
 
     }
 
